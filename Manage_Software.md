@@ -53,6 +53,15 @@
 | Command| Description |
 | ------------- | ------------- |------------- | 
 | **install**|&nbsp;|
-|**update**|若无指定 将更新所有包|
+|**update**|升级所有包 配置 版本内核|
 |**check-update**|检查是否有可用更新|
-|**upgrade**||
+|**upgrade**| 升级所有包 不改变配置 版本升级 内核不变|
+|**remove**<br/>**erase**|卸载软件 似**rpm -e** 但是会同时删除依赖的包|
+|**list**|列出包的信息 显示是否有更新可用|
+|**search**| 查找包含特定keyword的包|
+|**info**|显示包信息 似**rpm -qi**|
+|**clean**|清除yum的cache目录|
+|**resolvedep**|显示解决某包依赖关系的包|
+|**localinstall**|本地安装|
+|**loccalupdate**|本地更新|
+|**deplist**|显示指定包的依赖关系|
